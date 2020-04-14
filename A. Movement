@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int n,steps;
+   steps=0;
+   cin>>n;
+   int num;
+   while(n>=5)
+   {
+     num=5;
+     n=n-num;
+     steps++;
+   }
+   while(n>=4)
+   {
+     num=4;
+     n=n-num;
+     steps++;
+   }
+   while(n>=3)
+   {
+     num=3;
+     n=n-num;
+     steps++;
+   }
+  while(n>=2)
+   {
+     num=2;
+     n=n-num;
+     steps++;
+   }
+    while(n>=1)
+   {
+     num=1;
+     n=n-num;
+     steps++;
+   }
+   cout<<steps;
+}   
