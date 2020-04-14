@@ -1,0 +1,120 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num,b;
+    b=0;
+    string s;
+    getline(cin,s);
+    for(int i=0;i<s.size();i++)
+    {
+    switch(s[i])
+    {
+    case 'a':
+          num=1;
+          b=b+num;
+          break;
+    case 'b':
+          num=2;
+          b=b+num;
+          break;
+    case 'c':
+          num=3;
+          b=b+num;
+          break;
+    case 'd':
+          num=4;
+          b=b+num;
+          break;
+    case 'e':
+          num=5;
+          b=b+num;
+          break;
+    case 'f':
+          num=6;
+          b=b+num;
+          break;
+    case 'g':
+          num=7;
+          b=b+num;
+          break;
+    case 'h':
+          num=8;
+          b=b+num;
+          break;
+    case 'i':
+          num=9;
+          b=b+num;
+          break;
+    case 'j':
+          num=10;
+          b=b+num;
+          break;
+    case 'k':
+          num=11;
+          b=b+num;
+          break;
+    case 'l':
+          num=12;
+          b=b+num;
+          break;
+    case 'm':
+          num=13;
+          b=b+num;
+          break;
+    case 'n':
+          num=14;
+          b=b+num;
+          break;
+    case 'o':
+          num=15;
+          b=b+num;
+          break;
+    case 'p':
+          num=16;
+          b=b+num;
+          break;
+    case 'q':
+          num=17;
+          b=b+num;
+          break;
+    case 'r':
+          num=18;
+          b=b+num;
+          break;
+    case 's':
+          num=19;
+          b=b+num;
+          break;
+    case 't':
+          num=20;
+          b=b+num;
+          break;
+    case 'u':
+          num=21;
+          b=b+num;
+          break;
+    case 'v':
+          num=22;
+          b=b+num;
+          break;
+    case 'w':
+          num=23;
+          b=b+num;
+          break;
+    case 'x':
+          num=24;
+          b=b+num;
+          break;
+    case 'y':
+          num=25;
+          b=b+num;
+          break;
+    case 'z':
+          num=26;
+          b=b+num;
+          break;                        
+    }
+  }
+  cout<<b;
+}   
